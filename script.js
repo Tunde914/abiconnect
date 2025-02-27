@@ -62,3 +62,32 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         alert("Please enter your email address before proceeding.");
     }
 });
+
+/*function sendEmail() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const business = document.getElementById('business').value;
+    const service = document.getElementById('service').value;
+
+    if (!name || !email || !phone || !business || service === "Service Needed") {
+        alert("Please fill out all fields!");
+        return;
+    }
+    // Sending data to the backend
+    fetch('http://localhost:5000/send-email', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, phone, business, service }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message);
+    })
+    .catch(error => {
+        alert("Error sending email. Please try again.");
+        console.error(error);
+    });
+}*/

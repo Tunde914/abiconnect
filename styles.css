@@ -138,10 +138,6 @@
     font-size: 2rem;
   }
 
-  .intro-head-2{
-    padding-top: 3rem;
-  }
-
   .text {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -168,6 +164,7 @@
   }
 
 .btn-2{
+    margin-top: 2rem;
     padding: .75rem 1.5rem;
     outline: none;
     border: none;
@@ -185,6 +182,19 @@
     background-color: #2887ff;
 }
 
+#about{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+#abi-about{
+    padding-bottom: 1rem;
+}
+
 .services {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -194,7 +204,7 @@
 }
 
 .services h2 {
-    font-size: 2.5em;
+    font-size: 2rem;
     color: black;
     margin-bottom: 30px;
 }
@@ -216,6 +226,7 @@
     text-align: center;
     max-width: 300px;
 }
+
 
 .service-card i {
     font-size: 2em;
@@ -387,3 +398,46 @@ span:hover{
     margin-bottom: 2rem;
 }
 
+.contact{
+    margin: 5rem 0;
+    justify-content: center;
+}
+
+.contact h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-3{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: .75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: white;
+    background-color: black;
+    border-radius: 5rem;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-3:hover{
+    background-color: #2887ff;
+}
