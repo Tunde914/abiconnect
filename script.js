@@ -49,16 +49,3 @@ ScrollReveal().reveal(".service-card", {
     ...scrollRevealOption,
     interval: 500,
 });
-
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
-
-    let userEmail = document.getElementById("userEmail").value;
-    
-    if (userEmail) {
-        // Open email client with pre-filled email
-        window.location.href = `mailto:abiconnectdigitaledu@gmail.com?subject=New Contact Request&body=User Email: ${userEmail}`;
-    } else {
-        alert("Please enter your email address before proceeding.");
-    }
-});

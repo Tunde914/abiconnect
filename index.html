@@ -22,7 +22,7 @@
                 <li><a href="#about">ABOUT US</a></li>
                 <li><a href="#services">OUR SERVICES</a></li>
                 <li><a href="#reviews">REVIEWS</a></li>
-								<li><a href="https://wa.me/+2348024660463">GET IN TOUCH</a></li>
+								<li><a href="https://wa.me/+2348024660463" target="_blank">GET IN TOUCH</a></li>
             </ul>
 
 						<div class="nav-btn">
@@ -99,20 +99,22 @@
 
       <section class="contact">
         <h2>Ready to Elevate Your Brand?</h2>
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Name" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="text" id="phone" placeholder="Phone Number" required>
-            <input type="text" id="business" placeholder="Business Name" required>
-            <select id="service">
-                <option>Service Needed</option>
-                <option>Social Media</option>
-                <option>Branding</option>
-                <option>SEO</option>
-                <option>Paid Ads</option>
-            </select>
-            <button class="btn-3" type="submit" onclick="sendEmail()">Get My Free Consultation</button>
-        </form>
+        <form action="https://formsubmit.co/abiconnectdigitaledu@gmail.com" method="POST" id="contactForm">
+          <input type="text" id="name" name="name" placeholder="Name" required>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+          <input type="text" id="business" name="business" placeholder="Business Name" required>
+          
+          <select id="service" name="service" required>
+              <option value="" disabled selected>Service Needed</option>
+              <option value="Social Media">Social Media</option>
+              <option value="Branding">Branding</option>
+              <option value="SEO">SEO</option>
+              <option value="Paid Ads">Paid Ads</option>
+          </select>
+          <button class="btn-3" type="submit">Get My Free Consultation</button>
+      </form>
+      
     </section>
     
     <!-- Footer -->
@@ -140,7 +142,7 @@
       <div class="footer-col" id="getintouch">
         <h4>Contact Us</h4>
         <div class="footer-contact">
-           <span> <i class="fa-solid fa-phone"></i><a href="tel:+2348024660463">+2348024660463</a></span>
+           <span> <i class="fa-solid fa-phone"></i><a href="tel:+2348024660463" target="_blank">+2348024660463</a></span>
 
            <span><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/+2348024660463" target="_blank">+2348024660463</a></span>
 

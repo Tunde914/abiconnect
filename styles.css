@@ -67,7 +67,7 @@
 }
 
 .nav-menu-btn {
-    display: none; /* Hidden by default on large screens */
+    display: none; 
     font-size: 24px;
     cursor: pointer;
     right: 20px;
@@ -79,11 +79,11 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .nav-menu-btn {
-        display: block; /* Show menu button on small screens */
+        display: block; 
     }
 
     .nav-links {
-        display: none; /* Hide links by default on small screens */
+        display: none; 
         flex-direction: column;
         position: absolute;
         top: 60px;
@@ -95,7 +95,7 @@
     }
 
     .nav-links.open {
-        display: flex; /* Show menu when toggled */
+        display: flex;
     }
 
     .nav-links li {
@@ -119,7 +119,7 @@
     justify-content: center;
     width: 100%;
     height: 100%;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    flex-wrap: wrap;
   }
 
   /*.intro-img img {
@@ -397,7 +397,7 @@ span:hover{
 
 .footer-bar{
     font-size: 0.9rem;
-    color: #FFD700;
+    color: white;
     text-align: center;
 }
 
